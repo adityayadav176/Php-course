@@ -10,6 +10,7 @@
         this is my first php website
     </div>
     <?php
+    define("PI", 3.14);
    echo "<h1>php variables</h1>";
 
     $variable1 = 5;
@@ -144,7 +145,10 @@
     echo var_dump($varTrue);
     echo "<br>";
 
+    echo "<br>";
+    echo "<h1>php constant </h1>";
 
+    echo PI;
     ?>
 </body>
 </html>
