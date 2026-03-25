@@ -10,13 +10,19 @@
         this is my first php website
     </div>
     <?php
-    echo "this is printed using php";
+   echo "<h1>php variables</h1>";
 
     $variable1 = 5;
     $variable2 = 2;
+    echo "variable1 is1";
+    echo "<br>";
     echo $variable1;
+    echo "<br>";
+    echo "variable1 is2";
+    echo "<br>";
     echo $variable2;
 
+    echo "<br>";
     Echo $variable1 + $variable2;
 
     // arithmetic operator 
@@ -41,6 +47,8 @@
     echo "<br>";
     echo $variable1 % $variable2;
     echo "<br>";
+
+    echo "<h1>php operator </h1>";
     // assignment operator
 
     $newVar = $variable1;
@@ -114,7 +122,29 @@
     echo "<br>";
     echo var_dump($myVar4);
 
-    
+    // data types in php
+
+    echo "<br>";
+    echo "<h1>Data types</h1>";
+
+    $varString = "this is a string";
+    echo var_dump($varString);
+    echo "<br>";
+
+    $varNum = 67;
+    echo var_dump($varNum);
+    echo "<br>";
+
+    $varFloat = 100.23;
+    echo var_dump($varFloat);
+    echo "<br>";
+
+
+    $varTrue = true;
+    echo var_dump($varTrue);
+    echo "<br>";
+
+
     ?>
 </body>
 </html>
