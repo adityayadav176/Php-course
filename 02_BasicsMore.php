@@ -34,6 +34,51 @@
         else{
             echo "you can not go to party";
         }
+
+        $languages = array("Python", "C++", "Java", "JavaScript", "Php");
+        // echo count($languages);
+        // echo $languages[0];
+
+        // loops
+        echo "<br>";
+        $a = 0;
+        while ($a <= 10) {
+            echo "<br>The value of a is:";
+            echo $a;
+            $a++;
+        }
+        // Iterating arrays in php using while loop 
+        echo "<br>";
+        $a = 0;
+        while ($a < count($languages)) {
+            echo "<br>The value of languages is:";
+            echo $languages[$a];
+            $a++;
+        }
+
+        // do while loop 
+        echo "<br>";
+        $a = 20;
+        do{
+            echo "<br>The value of a is:";
+            echo $a;
+            $a++;
+        }while($a < 10);
+
+        // for loop 
+         echo "<br>";
+        for ($a=0; $a< 10; $a++) { 
+            echo "<br> The value of a from for loop is: ";
+            echo $a;
+        }
+
+        // for each loops
+         echo "<br>";
+        foreach($languages as $value){
+            echo " <br> The value from for each loop is : <br> " ;
+            echo $value;
+        }
+        
         ?>
     </div>
 </body>
