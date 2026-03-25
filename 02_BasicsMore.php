@@ -43,7 +43,7 @@
         echo "<br>";
         $a = 0;
         while ($a <= 10) {
-            echo "<br>The value of a is:";
+            echo "<br>The value of a from while loop is:";
             echo $a;
             $a++;
         }
@@ -51,7 +51,7 @@
         echo "<br>";
         $a = 0;
         while ($a < count($languages)) {
-            echo "<br>The value of languages is:";
+            echo "<br>The value of languages from while loop is:";
             echo $languages[$a];
             $a++;
         }
@@ -60,7 +60,7 @@
         echo "<br>";
         $a = 20;
         do{
-            echo "<br>The value of a is:";
+            echo "<br>The value of a from do while loop is:";
             echo $a;
             $a++;
         }while($a < 10);
@@ -78,7 +78,17 @@
             echo " <br> The value from for each loop is : <br> " ;
             echo $value;
         }
+
+        // functions
+        echo "<br>";
+        function print_num($number){
+            echo "<br> your number from function is: ";
+            echo $number;
+        }
         
+        print_num(10);
+        print_num(20);
+        print_num(30);
         ?>
     </div>
 </body>
